@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project that predicts which telecom customers are likely to cancel, and explains *why* using SHAP.
 
-**🔗 Live demo:** <will add link after deployment>
+**🔗 Live demo:**  https://sl-churn-predictor.streamlit.app/
 
 ![App screenshot](images/app_screenshot.png)
 
