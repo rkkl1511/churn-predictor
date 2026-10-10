@@ -1,0 +1,146 @@
+{
+  "feature_order": [
+    "Gender",
+    "Senior_Citizen",
+    "Partner",
+    "Dependents",
+    "Tenure_Months",
+    "Phone_Service",
+    "Multiple_Lines",
+    "Internet_Service",
+    "Online_Security",
+    "Online_Backup",
+    "Device_Protection",
+    "Tech_Support",
+    "Streaming_TV",
+    "Streaming_Movies",
+    "Contract",
+    "Paperless_Billing",
+    "Payment_Method",
+    "Monthly_Charges",
+    "Total_Charges"
+  ],
+  "num_cols": [
+    "Tenure_Months",
+    "Monthly_Charges",
+    "Total_Charges"
+  ],
+  "cat_cols": [
+    "Gender",
+    "Senior_Citizen",
+    "Partner",
+    "Dependents",
+    "Phone_Service",
+    "Multiple_Lines",
+    "Internet_Service",
+    "Online_Security",
+    "Online_Backup",
+    "Device_Protection",
+    "Tech_Support",
+    "Streaming_TV",
+    "Streaming_Movies",
+    "Contract",
+    "Paperless_Billing",
+    "Payment_Method"
+  ],
+  "cat_options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Senior_Citizen": [
+      "No",
+      "Yes"
+    ],
+    "Partner": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "No",
+      "Yes"
+    ],
+    "Phone_Service": [
+      "No",
+      "Yes"
+    ],
+    "Multiple_Lines": [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    "Internet_Service": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "Online_Security": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Online_Backup": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Device_Protection": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Tech_Support": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Streaming_TV": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Streaming_Movies": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "Paperless_Billing": [
+      "No",
+      "Yes"
+    ],
+    "Payment_Method": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  },
+  "num_ranges": {
+    "Tenure_Months": [
+      0.0,
+      72.0,
+      29.0
+    ],
+    "Monthly_Charges": [
+      18.25,
+      118.75,
+      70.35
+    ],
+    "Total_Charges": [
+      18.8,
+      8684.8,
+      1397.475
+    ]
+  },
+  "metrics": {
+    "roc_auc": 0.851,
+    "precision": 0.521,
+    "recall": 0.786,
+    "f1": 0.627
+  }
+}
